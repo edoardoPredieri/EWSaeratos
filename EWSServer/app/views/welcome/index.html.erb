@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EWSaeratos</title>
+    <style>
+        body{
+              font-family: 'Open Sans', sans-serif;
+              margin:0;
+              padding:0;
+              overflow: hidden;
+
+        }
+
+        #background{
+              background-image: url("/assets/e.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              width: 100vw;
+              height: 100vh;
+        }
+
+        #container{
+            position: absolute;
+            width: 30%;
+            height: 70%;
+            left: 5%;
+            top: 15%;
+            background-color: rgba(201, 82, 72, 1);
+            border-radius: 18px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #title{
+            color: white;
+            font-size: 35px;
+            position: relative;
+        }
+
+        #desc{
+            color: white;
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 16px;
+        }
+
+        #button{
+            border-radius: 12px;
+            position: absolute;
+            width: 50%;
+            height: 10%;
+            bottom: 10%;
+            right: 25%;
+            background-color: rgba(141, 159, 196, 1);
+            border-width: 0px;
+            font-size: 20px;
+        }
+
+        #logo{
+            position: absolute;
+            width:8%;
+            top: 47%;
+            right: 29%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="background">
+        <div id="container">
+            <p id="title">EWSaeratos</p>
+            <p id="desc">EWSaeratos is an application aimed at guaranteeing the safety of people in the event of an earthquake. It also provides useful informations about the latest records of global and local earthquakes.</p>
+            <button id="button" onclick="window.location='https://github.com/aeratos/EWSaeratos'">Download</button>
+        </div>
+        <img id='logo' src="/assets/logo_aeratos.png"/>
+    </div>
+</body>
+</html>
